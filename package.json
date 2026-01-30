@@ -1,0 +1,16 @@
+{
+  "name": "autodarts-request-bot",
+  "version": "0.1.0",
+  "description": "automatically accept match requests on autodarts via playwright",
+  "license": "ISC",
+  "author": "philippgitpush",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "playwright": "^1.58.0"
+  }
+}
