@@ -1,0 +1,8 @@
+services:
+  node:
+    build: .
+    command: npm start
+    restart: unless-stopped
+    volumes:
+      - ./data:/usr/app/
+      - /usr/app/node_modules
